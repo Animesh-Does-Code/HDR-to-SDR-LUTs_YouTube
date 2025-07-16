@@ -32,4 +32,5 @@ Color Space Transform filter settings:
 * Everything else: Default
 
 ## Extra Information
-Using mkvmerge on some video formats (DNxHR) may strip the video's framerate metadata, resulting in a choppy looking video when uploaded to YouTube. Adding the parameter `--default-duration` to the mkvmerge command will fix this issue. Example: `--default-duration 0:60p` for a 60 fps video. Refer to mkvmerge's [documentation](https://mkvtoolnix.download/doc/mkvmerge.html#mkvmerge.description.default_duration) for more information.
+* Using mkvmerge on some video formats (DNxHR) may strip the video's framerate metadata, resulting in a choppy looking video when uploaded to YouTube. Adding the parameter `--default-duration` to the mkvmerge command will fix this issue. Example: `--default-duration 0:60p` for a 60 fps video. Refer to mkvmerge's [documentation](https://mkvtoolnix.download/doc/mkvmerge.html#mkvmerge.description.default_duration) for more information.
+* The mkvmerge command I've provided is based on the command found in YouTube's own [HDR metadata tool repository](https://github.com/youtubehdr/hdr_metadata). Unfortunately, that repository has not been updated in quite some time, and therefore contains outdated mkvmerge builds and broken links to MKVToolNix.

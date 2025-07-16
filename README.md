@@ -10,7 +10,7 @@ This repo contains some pre-configured LUTs which I generated using DaVinci Reso
 The LUT files can be attached using mkvmerge.exe by running a command in Windows' command prompt/Terminal. This should work on Linux and Mac as well, but I haven't tested them.
 
 ## How To Use
-1. Download and install [MKVToolNix](https://mkvtoolnix.org/).
+1. Download and install [MKVToolNix](https://mkvtoolnix.download/downloads.html#windows).
 2. Download and extract the files of this repository by clicking the green `Code` button and then `Download ZIP`, or alternatively directly download it [with this link](https://github.com/Animesh-Does-Code/HDR-to-SDR-LUTs_YouTube/archive/refs/heads/main.zip).
 3. Move your final exported video to the folder you extracted the repository's files to.
 4. Open mkvmerge_command.txt and find & replace all instances of `1000` with the nits value of one of the available LUT files, if needed. For best results, this should correspond with the peak nits that your video was mastered at.

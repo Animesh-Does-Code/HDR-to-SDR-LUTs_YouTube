@@ -5,7 +5,7 @@ I created this GitHub repo mainly for my own reference, but decided to make it p
 ## What is this for?
 The SDR variant of HDR videos uploaded to YouTube have raised near black tones and poor contrast because of incorrect gamma/tonemapping by default, however, YouTube allows you to change its tonemapping behavior if you attach an appropriate LUT file to your HDR video before uploading.
 
-This repo contains some pre-configured LUTs which I generated using DaVinci Resolve. These can be attached to your final video export before upload to significantly improve the SDR variant's presentation. 
+This repo contains some pre-configured LUTs which I generated using DaVinci Resolve. These can be attached to your final video export before upload to significantly improve the SDR variant's presentation, bringing it closer to the intended look. 
 
 The LUT files can be attached using mkvmerge.exe by running a command in Windows' command prompt/Terminal. This should work on Linux and Mac as well, but I haven't tested them.
 

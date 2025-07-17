@@ -16,7 +16,7 @@ The LUT files can be attached using mkvmerge.exe by running a command in Windows
 4. Open mkvmerge_command.txt and find & replace all instances of `1000` with the nits value of one of the available LUT files, if needed. For best results, this should correspond with the peak nits that your video was mastered at.
 5. Rename `input.mkv` in mkvmerge_command.txt to your video's file name.
 6. Open command prompt/Windows Terminal with the path set to the current folder (Right click blank space in explorer -> Open in Windows Terminal)
-7. Copy and paste the mkvmerge command and press enter. An `output.mkv` file will be created with the LUT file attached.
+7. Copy and paste the mkvmerge command into the terminal and press enter. An `output.mkv` file will be created in the folder with the LUT file attached, as well as added HDR metadata.
 
 <hr/>
 

@@ -11,8 +11,8 @@ The LUT files can be attached using mkvmerge.exe by running a command in Windows
 
 ## How To Use
 1. Download and install [MKVToolNix](https://mkvtoolnix.download/downloads.html#windows).
-2. Download and extract the files of this repository by clicking the green `Code` button and then `Download ZIP`, or alternatively directly download it [with this link](https://github.com/Animesh-Does-Code/HDR-to-SDR-LUTs_YouTube/archive/refs/heads/main.zip).
-3. Move your final exported video to the folder you extracted the repository's files to.
+2. Download and extract the latest release from the releases page, or alternatively directly download it [with this link](https://github.com/Animesh-Does-Code/HDR-to-SDR-LUTs_YouTube/releases/latest/download/HDR-to-SDR-LUTs_YouTube.zip).
+3. Move your final exported video to the folder you extracted the .zip's files to.
 4. Open mkvmerge_command.txt and find & replace all instances of `1000` with the nits value of one of the available LUT files, if needed. For best results, this should correspond with the peak nits that your video was mastered at.
 5. Rename `input.mkv` in mkvmerge_command.txt to your video's file name.
 6. Open command prompt/Windows Terminal with the path set to the current folder (Right click blank space in explorer -> Open in Windows Terminal)
@@ -30,6 +30,12 @@ Color Space Transform filter settings:
 * Tone Mapping Method: Saturation Preserving
 * Custom Max. Input: Set to LUT specific nits
 * Everything else: Default
+
+## Side-by-side comparison
+Below is a comparison of the SDR variant of two HDR videos uploaded to YouTube. One had the LUT attached while the other didn't. To my eyes, the one that has the LUT applied looks much closer to the overall look of the actual [HDR video](https://youtu.be/vQVwkyn3-F8) (Skip to 2:00).
+![*Credit to Jacob + Katie Schwarz on YouTube*](./LUT-comparison.png)|
+|--------------------------------------------------------------------|
+|_Credit to Jacob + Katie Schwarz on [YouTube](https://youtu.be/vQVwkyn3-F8) for their amazing HDR videos._|
 
 ## Extra Information
 * Using mkvmerge on some video formats (DNxHR) may strip the video's framerate metadata, resulting in a choppy looking video when uploaded to YouTube. Adding the parameter `--default-duration` to the mkvmerge command will fix this issue. Example: `--default-duration 0:60p` for a 60 fps video. Refer to mkvmerge's [documentation](https://mkvtoolnix.download/doc/mkvmerge.html#mkvmerge.description.default_duration) for more information.

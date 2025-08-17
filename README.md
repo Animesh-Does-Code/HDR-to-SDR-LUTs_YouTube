@@ -10,6 +10,7 @@ This repo contains some pre-configured LUTs which I generated using DaVinci Reso
 The LUT files can be attached using mkvmerge.exe by running a command in Windows' command prompt/Terminal. This should work on Linux and Mac as well, but I haven't tested them.
 
 ## How To Use
+### Method 1: Manual
 1. Download and install [MKVToolNix](https://mkvtoolnix.download/downloads.html#windows).
 2. Download and extract the latest release from the releases page, or alternatively directly download it [with this link](https://github.com/Animesh-Does-Code/HDR-to-SDR-LUTs_YouTube/releases/latest/download/HDR-to-SDR-LUTs_YouTube.zip).
 3. Move your final exported video to the folder you extracted the .zip's files to.
@@ -17,6 +18,11 @@ The LUT files can be attached using mkvmerge.exe by running a command in Windows
 5. Rename `input.mkv` in mkvmerge_command.txt to your video's file name.
 6. Open command prompt/Windows Terminal with the path set to the current folder (Right click blank space in explorer -> Open in Windows Terminal)
 7. Copy and paste the mkvmerge command into the terminal and press enter. An `output.mkv` file will be created in the folder with the LUT file attached, as well as added HDR metadata.
+
+### Method 2: Automated Script
+You can use [this script](https://github.com/Animesh-Does-Code/HDR-to-SDR-LUTs_YouTube/issues/1) for an easier way to apply the LUTs. (Credit: [Shadetail](https://github.com/Shadetail))
+
+(You will need [MKVToolNix](https://mkvtoolnix.download/downloads.html#windows) and the [latest release .zip file](https://github.com/Animesh-Does-Code/HDR-to-SDR-LUTs_YouTube/releases/latest/download/HDR-to-SDR-LUTs_YouTube.zip) extracted beforehand.)
 
 <hr/>
 
